@@ -1,0 +1,144 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "imdb_id": "tt1375666",
+            "title": "Inception",
+            "genre": "sci-fi",
+            "plot": "A thief who steals corporate secrets through the use of dream-sharing technology."
+        },
+        {
+            "id": 2,
+            "imdb_id": "tt0133093",
+            "title": "The Matrix",
+            "genre": "sci-fi",
+            "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+        },
+        {
+            "id": 3,
+            "imdb_id": "tt0816692",
+            "title": "Interstellar",
+            "genre": "sci-fi",
+            "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+        },
+        {
+            "id": 4,
+            "imdb_id": "tt0468569",
+            "title": "The Dark Knight",
+            "genre": "action",
+            "plot": "Batman faces the Joker in a battle for the soul of Gotham City."
+        },
+        {
+            "id": 5,
+            "imdb_id": "tt0111161",
+            "title": "The Shawshank Redemption",
+            "genre": "drama",
+            "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        },
+        {
+            "id": 6,
+            "imdb_id": "tt0109830",
+            "title": "Forrest Gump",
+            "genre": "drama",
+            "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold from the perspective of an Alabama man with an IQ of 75."
+        },
+        {
+            "id": 7,
+            "imdb_id": "tt0137523",
+            "title": "Fight Club",
+            "genre": "drama",
+            "plot": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much more."
+        },
+        {
+            "id": 8,
+            "imdb_id": "tt0068646",
+            "title": "The Godfather",
+            "genre": "crime",
+            "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+        },
+        {
+            "id": 9,
+            "imdb_id": "tt0110912",
+            "title": "Pulp Fiction",
+            "genre": "crime",
+            "plot": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption."
+        },
+        {
+            "id": 10,
+            "imdb_id": "tt0167260",
+            "title": "The Lord of the Rings: The Return of the King",
+            "genre": "fantasy",
+            "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+        },
+        {
+            "id": 11,
+            "imdb_id": "tt0088763",
+            "title": "Back to the Future",
+            "genre": "sci-fi",
+            "plot": "Marty McFly, a teenager, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown."
+        },
+        {
+            "id": 12,
+            "imdb_id": "tt0099685",
+            "title": "Goodfellas",
+            "genre": "crime",
+            "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners."
+        },
+        {
+            "id": 13,
+            "imdb_id": "tt0082971",
+            "title": "Raiders of the Lost Ark",
+            "genre": "adventure",
+            "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+        },
+        {
+            "id": 14,
+            "imdb_id": "tt0120737",
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "genre": "fantasy",
+            "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+        },
+        {
+            "id": 15,
+            "imdb_id": "tt0110357",
+            "title": "The Lion King",
+            "genre": "animation",
+            "plot": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+        },
+        {
+            "id": 16,
+            "imdb_id": "tt0245429",
+            "title": "Spirited Away",
+            "genre": "anime",
+            "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+        },
+        {
+            "id": 17,
+            "imdb_id": "tt0107290",
+            "title": "Jurassic Park",
+            "genre": "sci-fi",
+            "plot": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+        },
+        {
+            "id": 18,
+            "imdb_id": "tt0993846",
+            "title": "The Wolf of Wall Street",
+            "genre": "comedy",
+            "plot": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
+        },
+        {
+            "id": 19,
+            "imdb_id": "tt0361748",
+            "title": "Inglourious Basterds",
+            "genre": "war",
+            "plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theater owner's vengeful plans for the same."
+        },
+        {
+            "id": 20,
+            "imdb_id": "tt6751668",
+            "title": "Parasite",
+            "genre": "thriller",
+            "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+        }
+    ]
+}
