@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie and Genre Input</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+	<div class="parent">
+		<h1>MovieReccs</h1>
+		<div class="container">
+			<form id="movieForm">
+			  <!-- Movie Names Input Group -->
+			  <div class="input-group">
+				<label for="movieNames">Movie Names:</label>
+				<div id="movieNamesContainer">
+				  <input
+					type="text"
+					name="movieNames[]"
+					placeholder="Enter movie name"
+				  />
+				  
+				</div>
+			  </div>
+			  <!-- Genres Input Group -->
+			  <!-- <div class="input-group">
+				<label for="genres">Genres:</label>
+				<div id="genresContainer">
+				  <input type="text" name="genres[]" placeholder="Enter genre" />
+				  <button type="button" class="add-button" onclick="addGenreInput()">
+					Add Another Genre
+				  </button>
+				</div>
+			  </div> -->
+			  <!-- Submit Button -->
+			  <div class="buttons">
+				  <button type="button" class="add-button" onclick="addMovieInput()">
+					Add Movie
+				  </button> 
+				  <button type="submit">Submit</button>
+			  </div>
+			</form>
+	</div>
+    </div>
+  </body>
+</html>
