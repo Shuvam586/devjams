@@ -13,4 +13,6 @@ our project encompasses around better recommendation of cinema. we plan to build
 2/48: basic api response schema completed  
 4/48: break  
 11/48: building the flask api  
-13/48: automating collection of subreddit data
+13/48: automating collection of subreddit data     
+24/48: finished api work     
+26/48: deployed the api 
