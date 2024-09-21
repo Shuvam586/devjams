@@ -6,12 +6,15 @@ import difflib
 app = Flask(__name__)
 
 # Load JSON data from a file
-with open('movies_db.json') as f:
+with open('movies.json') as f:
     movies_data = json.load(f)['movies']
 
 # Helper function to get a movie by ID
 def get_movie_by_id(movie_id):
     return next((movie for movie in movies_data if movie['id'] == movie_id), None)
+
+def get_genre(movie_id):
+    return next((movie['genre'] for movie in movies_data if movie['id'] == movie_id), None)
 
 # /reccwatched - Fetches recommendations based on movies already watched and similar plots
 @app.route('/reccwatched', methods=['GET'])
@@ -22,24 +25,27 @@ def recc_watched():
     
     movie_ids = [int(mid) for mid in param.split(',')]
     watched_movies = [get_movie_by_id(mid) for mid in movie_ids if get_movie_by_id(mid)]
-    
+    print(watched_movies)
     if not watched_movies:
         return jsonify({'error': 'No valid movie IDs found'}), 404
 
     # Example: Compare plots using difflib for similarity
-    watched_plots = " ".join([movie['plot'] for movie in watched_movies])
+    watched_plots = " ".join([str(movie['plot']) for movie in watched_movies])
     
     def plot_similarity(plot1, plot2):
         return difflib.SequenceMatcher(None, plot1, plot2).ratio()
 
     # Recommend movie with similar plot that hasn't been watched yet
     recommendations = []
+    genres = list(set([get_genre(mid) for mid in movie_ids if get_genre(mid)]))
     for movie in movies_data:
-        if movie['id'] not in movie_ids:
+        if movie['id'] not in movie_ids and movie['genre'] in genres:
             similarity = plot_similarity(watched_plots, movie['plot'])
-            if similarity > 0.2:  # Threshold for similarity
+            if similarity > 0.1:  # Threshold for similarity
                 recommendations.append(movie)
     
+    
+
     if recommendations:
         return jsonify({'recommended': random.choice(recommendations)})
     else:
