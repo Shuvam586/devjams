@@ -2,6 +2,8 @@
 
 documeting progress through devjams
 
+link: [shuvam586/devjams](https://shuvam586.github.io/devjams/)
+
 ### project gist:
 
 our project encompasses around better recommendation of cinema. we plan to build a recommendation engine along with a usable front-end interface as well. we will have an API made in Flask and Python, that will be used by the client to access the recommendation engine. user gives the genre and movies similar to what they wish to watch as input and the client returns the recommended movie as output. 
