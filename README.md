@@ -22,6 +22,10 @@ we havent implemented the front-end fully yet. we have to enter the id of the mo
 26/48: deployed the api    
 27/48: made a draft of the frontend code      
 29/48: finalised the frontend code       
-30/48: connecting the frontend and api together     
+30/48: connecting the frontend and api together    
+36/48: implementing chunk system    
+38/48: migrating the api to work with the chunk system     
+42/48: finished it up     
+46/48: we think you should see the commit history instead     
 
 
